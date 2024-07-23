@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url(img/hero-bg.png);
+    background-size: cover;
+    padding: 10px;
+    padding-bottom: 200px;
+    position: relative; 
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 1.5;
+}
+
+.s-section-overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.9;
+}
+
+.logo-hs {
+    height: 90px;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: gainsboro;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.best-pizza {
+    margin-top: 170px;
+    color: white;
+}
+
+.best-pizza h1 {
+    font-size: 80px;
+    font-family: "AbrilFatface";
+}
+
+.text {
+    margin-top: 40px;
+}
+
+.text p {
+    font-size: 30px;
+    color: rgb(210, 208, 208);
+    line-height: 30px;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.button a {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 13px 60px;
+    text-decoration: none;
+}
+
+.p-menu-section {
+    background-image: url(img/p-menu-bg.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.p-menu-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: "AbrilFatface";
+}
+
+.p-menu-section p {
+    font-size: 30px;
+    color: rgb(210, 208, 208);
+    line-height: 30px;
+    text-align: center;
+}
+
+.p-m-text {
+    margin-top: 20px;
+    
+}
+
+.statistics-text {
+    color: rgb(210, 208, 208);
+    text-align: center;
+}
+
+.statistics-text p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.pizza-img {
+    height: 200px;
+    border-radius: 300px;
+}
+
+.pizza-items {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pizza-item {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.pizza-item h3 {
+    margin-top: 20px;
+}
+
+.pizza-item p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.delivery-section {
+    background-image: url(img/free-d-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.statistics-section {
+    background-image: url(img/p-menu-bg.png);
+    padding-bottom: 200px;
+    padding-top: 10px;
+}
+
+.statistics-section h1 {
+    text-align: center;
+}
+
+.statistics-circle {
+    margin-top: 90px;
+    position: relative;
+}
+
+.statistics-circle h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.statistics-circle h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.discount-section {
+    background-image: url(img/discount-bg.png);
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.sixth-section {
+    background-image: url(img/sixth-bg.png);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+.sixth-section h1 {
+    font-size: 50px;
+    color: white;
+    font-family: "Myriad Pro";
+}
+
+.sixth-section h3 {
+    font-size: 40px;
+    color: white;
+    font-family: "AbrilFatface";
+    padding-top: 20px;
+}
+
+.subscribe-section {
+    background-image: url(img/p-menu-bg.png);
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.subscribe-section h1 {
+    font-size: 80px;
+    color: white;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+
+.subscribe-text {
+    text-align: center;
+    color: rgb(210, 208, 208);
+    font-size: 28px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.email-input {
+    margin-top: 30px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.footer {
+    background-image: url(img/footer-bg.png);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    font-family: "Montserrat";
+}
+
+.footer p {
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+}
+
+.footer h4 {
+    font-size: 30px;
+    color: rgb(194, 194, 194);
+}
+
+.social-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon img {
+    height: 30px;
+}
+
+.about-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-items a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-items a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.other-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-items a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 365px) {
+    .email-input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .links {
+        display: none;
+    }
+}
+
+
